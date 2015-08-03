@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Keep_Adding.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Keep_Adding"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="TargetNumber" HorizontalAlignment="Center" Margin="89,0,88,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="83" Width="183" FontSize="72" TextAlignment="Center" Foreground="#FFD81111"/>
+        <TextBlock x:Name="userInputTextBlock" HorizontalAlignment="Center" Margin="126,95,119,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="47" Width="115" FontSize="36" TextAlignment="Center"/>
+        <TextBlock x:Name="scoreTextBlock" HorizontalAlignment="Center" Margin="110,164,110,0" TextWrapping="Wrap" Text="Score: 0" VerticalAlignment="Top" Height="23" Width="140" FontSize="18"/>
+        <TextBlock x:Name="timerTextBlock" HorizontalAlignment="Left" Margin="91,208,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="29" FontSize="18"/>
+        <Button x:Name="resetButton" Content="Reset" HorizontalAlignment="Center" Margin="132,251,152,0" VerticalAlignment="Top" RenderTransformOrigin="2.103,0.469" Height="55" Width="76"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="49,313,234,0" Height="55" Width="77"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="132,313,152,0" Height="55" Width="76"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="214,313,69,0" Height="55" Width="77"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="49,376,234,0" Height="54" Width="77"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="132,376,152,0" Height="54" Width="76"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="214,376,69,0" Height="54" Width="77"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="49,438,234,0" Height="55" Width="77"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="132,438,152,0" Height="55" Width="76"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="214,438,69,0" Height="55" Width="77"/>
+    </Grid>
+</Page>
